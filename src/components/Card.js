@@ -1,5 +1,4 @@
 /* eslint-disable camelcase */
-import { IcMArrowNext } from '@cogoport/icons-react'
 import styles from './styles.module.css'
 
 function Card ({ length = '', item = {} }) {
@@ -24,7 +23,7 @@ function Card ({ length = '', item = {} }) {
                 {
                 button_url &&
                     <a href={button_url} target='_blank' rel="noreferrer">
-                        <button className={styles.button}>{button_label} <IcMArrowNext/></button>
+                        <button className={styles.button}>{button_label}</button>
                     </a>
                 }
             </div>

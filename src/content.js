@@ -1,8 +1,8 @@
 export const HEADER = {
   profile_url: './assets/profile.jpeg',
   profile_alt: 'Profile Image',
-  heading: 'Anmol Bansal | Software Developer',
-  sub_heading: 'SDE at Cogoport, Mumbai',
+  heading: 'Anmol Bansal',
+  sub_heading: 'Software Development Engineer (Formerly at Cogoport)',
   links: {
     instagram: 'https://instagram.com/anmollbansall',
     twitter: 'https://twitter.com/anmollbansall',
@@ -33,9 +33,9 @@ export const LONG_CARDS = [
 export const SHORT_CARDS = [
   {
     id: 3,
-    title: 'Cogoport is my workplace.',
-    button_label: 'Discover what they offer',
-    button_url: 'https://www.cogoport.com/en-IN',
+    title: 'My NPM Package',
+    button_label: 'Discover Cristatus',
+    button_url: 'https://cristatus.anmolbansal.xyz/',
     image: './assets/cogoport.jpg',
     video: ''
   },

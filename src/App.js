@@ -1,5 +1,4 @@
 import Card from './components/Card'
-import Footer from './components/Footer'
 import Header from './components/Header'
 import styles from './styles.module.css'
 
@@ -25,8 +24,6 @@ function App () {
 
                 </div>
             </div>
-
-            <Footer />
 
         </div>
   )
